@@ -44,7 +44,7 @@ def main():
     args = parser.parse_args()
     evm_reset()
 
-    t.set_logging_level(2)
+    t.set_logging_level(3)
     #slogging.configure(':info,eth.pb:debug,eth.vm.exit:trace')
     #slogging.configure(':info,eth.vm.exit:debug,eth.pb.tx:info')
 
